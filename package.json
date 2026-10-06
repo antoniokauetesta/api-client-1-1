@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.10.0",
+    "@prisma/client": "^7.10.0",
+    "bcrypt": "^6.0.0",
+    "cor": "^0.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "pg": "^8.23.1"
+  },
+  "name": "api-client-1-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "devDependencies": {
+    "dotenv": "^18.0.5",
+    "nodemon": "^3.1.14",
+    "prisma": "^7.10.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniokauetesta/api-client-1-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/antoniokauetesta/api-client-1-1/issues"
+  },
+  "homepage": "https://github.com/antoniokauetesta/api-client-1-1#readme"
+}
