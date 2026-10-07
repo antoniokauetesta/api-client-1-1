@@ -14,7 +14,7 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=flat-square" alt="Status" />
+  <img src="https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen?style=flat-square" alt="Status" />
   <img src="https://img.shields.io/badge/licen%C3%A7a-ISC-blue?style=flat-square" alt="Licença" />
   <img src="https://img.shields.io/github/last-commit/antoniokauetesta/api-client-1-1?style=flat-square" alt="Último commit" />
   <img src="https://img.shields.io/github/languages/top/antoniokauetesta/api-client-1-1?style=flat-square" alt="Linguagem principal" />
