@@ -85,7 +85,7 @@ app.post("/pessoas", async (req, res) => {
         console.error(error);
 
         res.status(500).json({
-            erro: "Erro ao cadastrar pessoa"
+            erro: error.message
         });
     }
 });

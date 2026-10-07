@@ -6,18 +6,16 @@ generator client {
 datasource db {
   provider = "postgresql"
 }
-
-model Pessoas {
-  id       Int      @id @default(autoincrement())
-  nome     String
-  email    String   @unique
-  cpf      String   @unique
-
-  cliente  Clientes?
+model Pessoa {
+  id      Int      @id @default(autoincrement())
+  nome    String
+  email   String   @unique
+  cpf     String   @unique
+  cliente Cliente?
 }
 
-model Clientes {
-  id       Int     @id @default(autoincrement())
-  pessoaId Int     @unique
-  pessoa   Pessoas  @relation(fields: [pessoaId], references: [id])
+model Cliente {
+  id       Int    @id @default(autoincrement())
+  pessoaId Int    @unique
+  pessoa   Pessoa @relation(fields: [pessoaId], references: [id])
 }
