@@ -1,9 +1,11 @@
 import "dotenv/config";
 import express from "express";
+import cors from "cors";
 import { prisma } from "../src/lib/prisma.ts";
 
 const app = express();
-
+app.use(cors());
+app.use(express.json());
 app.use(express.json());
 
 app.get("/", async (req, res) => {
